@@ -2,6 +2,9 @@
 
 html {
   background-color: #313342;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header {
   width: 100%;
@@ -11,8 +14,11 @@ html {
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 20px;
-  font: 200 12px 'Roboto', sans-serif;
+  font: 200 1vw 'Roboto', sans-serif;
   color: #de809f;
+}
+.header img {
+  width: 50%;
 }
 .content{
   
@@ -22,7 +28,7 @@ html {
   border-radius: 8px;
 }
 .footer{
-  font: 12px 'Roboto', sans-serif;
+  font: 1vw 'Roboto', sans-serif;
   color: #FFF;
   text-decoration: none;
   display: flex;
